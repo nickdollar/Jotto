@@ -13,9 +13,9 @@ const Congrats = (props)=>{
 
     if (props.success){
         return (
-                <div data-test="component-congrats">
+                <div data-test="component-congrats" className="alern alert-success">
                     <span data-test="congrats-message">
-                        Congratulations! You guessed the word!
+                            Congratulations! You guessed the word!
                     </span>
                 </div>
             );
